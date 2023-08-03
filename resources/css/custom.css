@@ -1,0 +1,13 @@
+
+.cars_form{
+    display: none;
+}
+.w-5{
+    display: none;
+}
+#ajax_list{
+    background-color: rgb(192, 230, 217);
+  }
+  div nav div.hidden{
+    display: none;
+  }
