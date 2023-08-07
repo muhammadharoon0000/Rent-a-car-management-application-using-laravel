@@ -42,5 +42,4 @@ Route::get('/rentPurchase/sale', [rentPurchaseController::class, 'sale_index'])-
 Route::post('/rentPurchase/sold_out', [rentPurchaseController::class, 'sold_out'])->name('sold_out');
 Route::get('/rentPurchase/rent_index', [rentPurchaseController::class, 'rent_index'])->name('rent_index');
 Route::match(['get', 'post'], '/rentPurchase/rent_out', [rentPurchaseController::class, 'rent_out'])->name('rent_out');
-Auth::routes();
 Route::get('/arduino/{command}', [ArduinoController::class, 'sendCommand']);
